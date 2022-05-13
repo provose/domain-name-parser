@@ -13,7 +13,7 @@ into parts. Currently we return:
 # Here, we go with "parser_1".
 
 module "parser_1" {
-  source   = "github.com/provose/domain-name-parser?ref=1.0.0"
+  source   = "github.com/provose/domain-name-parser?ref=v1.0.0"
   dns_name = "a.bunch.of.com.subdomain.google.co.uk"
 }
 
